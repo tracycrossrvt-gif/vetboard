@@ -875,5 +875,80 @@ export const generatedQuestions = [
       "checkedAt": "2026-11-07T00:49:24+00:00",
       "note": "Independent AI answered blind from the cited page and matched the answer key; flagged wording fixed."
     }
+  },
+  {
+    "id": "mvm-laboratory-001",
+    "domain": "laboratory",
+    "question": "Which type of blood collection tube is used for a complete blood count (CBC) on a dog?",
+    "options": [
+      "EDTA tube",
+      "Heparin tube",
+      "Sodium fluoride tube",
+      "Serum tube with no anticoagulant"
+    ],
+    "correctAnswer": "EDTA tube",
+    "explanation": "Blood for a CBC is collected into a tube containing EDTA anticoagulant and mixed right away to prevent clotting. The tube should be filled to the mark, and if the sample can't be run promptly, a freshly made blood smear should be sent with it.",
+    "source": {
+      "title": "Merck Veterinary Manual: Clinical Hematology",
+      "reference": "https://www.merckvetmanual.com/clinical-pathology-and-procedures/diagnostic-procedures-for-the-private-practice-laboratory/clinical-hematology",
+      "verified": true
+    },
+    "reviewStatus": "approved",
+    "verification": {
+      "method": "ai-crosscheck",
+      "result": "pass",
+      "checkedAt": "2026-11-07T18:45:21+00:00",
+      "note": "Independent AI answered blind from the cited page and matched the answer key; flagged wording fixed."
+    }
+  },
+  {
+    "id": "mvm-diagnostic-imaging-001",
+    "domain": "diagnostic-imaging",
+    "question": "A patient must be manually restrained for a radiograph. Which practice protects the technician?",
+    "options": [
+      "Wear a lead apron, lead gloves, and a thyroid shield, and keep gloved hands out of the primary beam",
+      "Wear lead gloves so hands can safely be placed in the primary beam",
+      "Wear a lead apron only, since thyroid shields are optional",
+      "Open the collimator wide so the first image doesn't need to be repeated"
+    ],
+    "correctAnswer": "Wear a lead apron, lead gloves, and a thyroid shield, and keep gloved hands out of the primary beam",
+    "explanation": "Lead aprons and gloves block most scatter radiation but only a small fraction of the primary beam, so gloved hands should never be in the beam. Thyroid shields are considered mandatory. Collimating tightly to the patient, not opening it wide, reduces scatter and staff exposure. Manual restraint should be kept to a minimum, with sedation often preferred.",
+    "source": {
+      "title": "Merck Veterinary Manual: Radiography of Animals",
+      "reference": "https://www.merckvetmanual.com/clinical-pathology-and-procedures/diagnostic-imaging/radiography-of-animals",
+      "verified": true
+    },
+    "reviewStatus": "approved",
+    "verification": {
+      "method": "ai-crosscheck",
+      "result": "pass",
+      "checkedAt": "2026-11-07T18:45:21+00:00",
+      "note": "Independent AI answered blind from the cited page and matched the answer key; flagged wording fixed."
+    }
+  },
+  {
+    "id": "mvm-animal-care-003",
+    "domain": "animal-care",
+    "question": "During triage, a dog has a capillary refill time of 3 seconds. What does this most likely indicate?",
+    "options": [
+      "Poor perfusion or peripheral vasoconstriction",
+      "Normal perfusion",
+      "A hyperdynamic state, such as early compensated shock",
+      "Elevated bilirubin"
+    ],
+    "correctAnswer": "Poor perfusion or peripheral vasoconstriction",
+    "explanation": "A normal capillary refill time is 1 to 2 seconds. Longer than 2 seconds suggests poor perfusion or peripheral vasoconstriction. A time shorter than 1 second can be seen in hyperdynamic states such as fever, heatstroke, or early compensated shock.",
+    "source": {
+      "title": "Merck Veterinary Manual: Parameters to Evaluate During Triage",
+      "reference": "https://www.merckvetmanual.com/multimedia/table/parameters-to-evaluate-during-triage",
+      "verified": true
+    },
+    "reviewStatus": "approved",
+    "verification": {
+      "method": "ai-crosscheck",
+      "result": "pass",
+      "checkedAt": "2026-11-07T18:45:21+00:00",
+      "note": "Independent AI answered blind from the cited page and matched the answer key; flagged wording fixed."
+    }
   }
 ];
