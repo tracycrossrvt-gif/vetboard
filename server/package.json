@@ -1,5 +1,5 @@
 {
-  "name": "ai-trivia-server",
+  "name": "vetboard-server",
   "version": "1.0.0",
   "description": "Express API for VetBoard VTNE practice",
   "type": "module",
